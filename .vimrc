@@ -2,9 +2,11 @@
 set nocompatible
 set noerrorbells
 set novisualbell
-syntax enable
 set number 
 set laststatus=2
+
+syntax on
+filetype on
 
 " Plug
 "
@@ -21,6 +23,8 @@ call plug#end()
 " Statusline settings
 "
 let g:lightline = {'colorscheme' : 'molokai'} 
-	
 
+imap jk <Esc>
+vmap jk <Esc>
+nmap jk <Esc>
 
