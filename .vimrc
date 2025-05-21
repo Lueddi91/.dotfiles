@@ -2,7 +2,7 @@
 set nocompatible
 set noerrorbells
 set novisualbell
-set number 
+set relativenumber 
 set laststatus=2
 
 syntax on
@@ -26,5 +26,3 @@ let g:lightline = {'colorscheme' : 'molokai'}
 
 imap jk <Esc>
 vmap jk <Esc>
-nmap jk <Esc>
-
